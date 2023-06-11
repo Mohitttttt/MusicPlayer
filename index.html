@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Soundwave Template</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-icons.min.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+<body>
+
+	<!--start main area-->
+	<main>
+		<!--start navigation-->
+		<nav class="mainnav shadow navbar-expand-lg navbar navbar-dark bg-dark fixed-top" style="min-width: 350px">
+		  <div class="container-fluid">
+		    <a class="navbar-brand" href="#">
+		    	<i class="bi bi-soundwave"></i> NinjaMusic
+		    	<div style="font-size: 13px">Music for Coders</div>
+		    </a>
+
+		    <div>
+			    <div class="input-group ">
+				  <input type="text" class="form-control" placeholder="Search" aria-label="Recipient's username" aria-describedby="basic-addon2">
+				  <span class="bg-black text-white border-0 input-group-text" id="basic-addon2"><i class="bi bi-search"></i></span>
+				</div>
+			</div>
+
+			<div class="text-white h4 mx-3">
+				<a href="">
+					<i class="bi bi-facebook"></i>
+				</a>
+				<a href="">
+					<i class="bi bi-twitter"></i>
+				</a>
+				<a href="">
+					<i class="bi bi-instagram"></i>
+				</a>
+			</div>
+		    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		      <span class="navbar-toggler-icon"></span>
+		    </button>
+		    
+		    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+		        <li class="nav-item"> 
+		          <a class="nav-link active" aria-current="page" href="#">Home</a>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link" href="#">Discover</a>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link" href="#">Trending</a>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link" href="#">New</a>
+		        </li>
+		        
+		        <li class="nav-item dropdown">
+		          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+		            Genre
+		          </a>
+		          <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+		            <li><a class="dropdown-item text-white" href="#">Pop</a></li>
+		            <li><a class="dropdown-item text-white" href="#">R&B</a></li>
+		            
+		            <li><a class="dropdown-item text-white" href="#">Country</a></li>
+		          </ul>
+		        </li>
+
+		        <img class="rounded-circle" src="https://source.unsplash.com/40x40/?Person" style="width:40px;height:40px">
+		        <li class="nav-item dropdown">
+		          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+		            Hi, There
+		          </a>
+		          <ul class="dropdown-menu dropdown-menu-end bg-dark" aria-labelledby="navbarDropdown">
+		            <li><a class="dropdown-item text-white" href="#"><i class="bi bi-person"></i> Profile</a></li>
+		            <li><a class="dropdown-item text-white" href="#"><i class="bi bi-gear"></i> Settings</a></li>
+		            <li><hr class="dropdown-divider"></li>
+		            <li><a class="dropdown-item text-white" href="#"><i class="bi bi-box-arrow-right"></i> Logout</a></li>
+		          </ul>
+		        </li>
+		      </ul>
+		    </div>
+		  </div>
+		</nav><!--end navigation-->
+
+
+		<!--start hero area-->
+		<div class="hero-area text-white pt-5 mt-2">
+			
+			<div class="nav-spacer"></div>
+
+			<ul class="hero-nav nav m-4 nav-pills mb-3" id="pills-tab" role="tablist">
+			  <li class="nav-item" role="presentation">
+			    <button class="text-white nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Featured</button>
+			  </li>
+			  <li class="nav-item" role="presentation">
+			    <button class="text-white nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Trending</button>
+			  </li>
+			  <li class="nav-item" role="presentation">
+			    <button class="text-white nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">New Release</button>
+			  </li>
+			</ul>
+			<div class="tab-content" id="pills-tabContent">
+			  <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+
+			  		<!--small song item-->
+			  		<div class="song-small m-1 ms-4 col-md-6 row align-items-center" >
+			  			<div class="col-1 h3">01</div>
+			  			<div class="col d-flex">
+			  				<img class="song-small-img rounded m-1" src="https://source.unsplash.com/40x41/?music" >
+			  				<div class="ms-1">
+			  					<div>Rang Sarbato ka</div>
+					  			<small>Arijit Singh</small>
+					  		</div>
+				  		</div>
+			  			<div class="col-2">04:30 <i class="bi bi-play"></i></div>
+			  		</div>
+			  		<!--end small song item-->
+
+			  		<!--small song item-->
+			  		<div class="song-small m-1 ms-4 col-md-6 row align-items-center" >
+			  			<div class="col-1 h3">02</div>
+			  			<div class="col d-flex">
+			  				<img class="song-small-img rounded m-1" src="https://source.unsplash.com/41x41/?music" >
+			  				<div class="ms-1">
+			  					<div>Lag Jaa Gale</div>
+					  			<small>Lata</small>
+					  		</div>
+				  		</div>
+			  			<div class="col-2">04:00 <i class="bi bi-play"></i></div>
+			  		</div>
+			  		<!--end small song item-->
+
+			  		<!--small song item-->
+			  		<div class="song-small m-1 ms-4 col-md-6 row align-items-center" >
+			  			<div class="col-1 h3">03</div>
+			  			<div class="col d-flex">
+			  				<img class="song-small-img rounded m-1" src="https://source.unsplash.com/43x45/?music" >
+			  				<div class="ms-1">
+			  					<div>Over the Town</div>
+					  			<small>Taylor Swift</small>
+					  		</div>
+				  		</div>
+			  			<div class="col-2">05:00 <i class="bi bi-play"></i></div>
+			  		</div>
+			  		<!--end small song item-->
+            
+			  		<!--small song item-->
+			  		<div class="song-small m-1 ms-4 col-md-6 row align-items-center" >
+			  			<div class="col-1 h3">04</div>
+			  			<div class="col d-flex">
+			  				<img class="song-small-img rounded m-1" src="https://source.unsplash.com/53x41/?music" >
+			  				<div class="ms-1">
+			  					<div>Blue Eyes</div>
+					  			<small>Yo Yo Honey</small>
+					  		</div>
+				  		</div>
+			  			<div class="col-2">06:10 <i class="bi bi-play"></i></div>
+			  		</div>
+			  		<!--end small song item-->
+            
+			  		<!--small song item-->
+			  		<div class="song-small m-1 ms-4 col-md-6 row align-items-center" >
+			  			<div class="col-1 h3">05</div>
+			  			<div class="col d-flex">
+			  				<img class="song-small-img rounded m-1" src="https://source.unsplash.com/43x41/?music" >
+			  				<div class="ms-1">
+			  					<div>Country Head</div>
+					  			<small>Mickel</small>
+					  		</div>
+				  		</div>
+			  			<div class="col-2">05:00 <i class="bi bi-play"></i></div>
+			  		</div>
+			  		<!--end small song item-->
+
+			  		
+
+			  </div>
+			  <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+			  					  		<!--small song item-->
+			  		<div class="song-small m-1 ms-4 col-md-6 row align-items-center" >
+			  			<div class="col-1 h3">01</div>
+			  			<div class="col d-flex">
+			  				<img class="song-small-img rounded m-1" src="https://source.unsplash.com/40x41/?music" >
+			  				<div class="ms-1">
+			  					<div>Rang Sarbato ka</div>
+					  			<small>Arijit Singh</small>
+					  		</div>
+				  		</div>
+			  			<div class="col-2">04:30 <i class="bi bi-play"></i></div>
+			  		</div>
+			  		<!--end small song item-->
+
+			  		<!--small song item-->
+			  		<div class="song-small m-1 ms-4 col-md-6 row align-items-center" >
+			  			<div class="col-1 h3">02</div>
+			  			<div class="col d-flex">
+			  				<img class="song-small-img rounded m-1" src="https://source.unsplash.com/41x41/?music" >
+			  				<div class="ms-1">
+			  					<div>Lag Jaa Gale</div>
+					  			<small>Lata</small>
+					  		</div>
+				  		</div>
+			  			<div class="col-2">04:00 <i class="bi bi-play"></i></div>
+			  		</div>
+			  		<!--end small song item-->
+
+			  		<!--small song item-->
+			  		<div class="song-small m-1 ms-4 col-md-6 row align-items-center" >
+			  			<div class="col-1 h3">03</div>
+			  			<div class="col d-flex">
+			  				<img class="song-small-img rounded m-1" src="https://source.unsplash.com/43x45/?music" >
+			  				<div class="ms-1">
+			  					<div>Over the Town</div>
+					  			<small>Taylor Swift</small>
+					  		</div>
+				  		</div>
+			  			<div class="col-2">05:00 <i class="bi bi-play"></i></div>
+			  		</div>
+			  		<!--end small song item-->
+            
+			  		<!--small song item-->
+			  		<div class="song-small m-1 ms-4 col-md-6 row align-items-center" >
+			  			<div class="col-1 h3">04</div>
+			  			<div class="col d-flex">
+			  				<img class="song-small-img rounded m-1" src="https://source.unsplash.com/53x41/?music" >
+			  				<div class="ms-1">
+			  					<div>Blue Eyes</div>
+					  			<small>Yo Yo Honey</small>
+					  		</div>
+				  		</div>
+			  			<div class="col-2">06:10 <i class="bi bi-play"></i></div>
+			  		</div>
+			  		<!--end small song item-->
+            
+			  		<!--small song item-->
+			  		<div class="song-small m-1 ms-4 col-md-6 row align-items-center" >
+			  			<div class="col-1 h3">05</div>
+			  			<div class="col d-flex">
+			  				<img class="song-small-img rounded m-1" src="https://source.unsplash.com/43x41/?music" >
+			  				<div class="ms-1">
+			  					<div>Country Head</div>
+					  			<small>Mickel</small>
+					  		</div>
+				  		</div>
+			  			<div class="col-2">05:00 <i class="bi bi-play"></i></div>
+			  		</div>
+			  		<!--end small song item-->
+
+			  		
+			  		
+			  </div>
+			  <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
+
+			  		<!--small song item-->
+			  		<div class="song-small m-1 ms-4 col-md-6 row align-items-center" >
+			  			<div class="col-1 h3">01</div>
+			  			<div class="col d-flex">
+			  				<img class="song-small-img rounded m-1" src="https://source.unsplash.com/40x41/?music" >
+			  				<div class="ms-1">
+			  					<div>Rang Sarbato ka</div>
+					  			<small>Arijit Singh</small>
+					  		</div>
+				  		</div>
+			  			<div class="col-2">04:30 <i class="bi bi-play"></i></div>
+			  		</div>
+			  		<!--end small song item-->
+
+			  		<!--small song item-->
+			  		<div class="song-small m-1 ms-4 col-md-6 row align-items-center" >
+			  			<div class="col-1 h3">02</div>
+			  			<div class="col d-flex">
+			  				<img class="song-small-img rounded m-1" src="https://source.unsplash.com/41x41/?music" >
+			  				<div class="ms-1">
+			  					<div>Lag Jaa Gale</div>
+					  			<small>Lata</small>
+					  		</div>
+				  		</div>
+			  			<div class="col-2">04:00 <i class="bi bi-play"></i></div>
+			  		</div>
+			  		<!--end small song item-->
+
+			  		<!--small song item-->
+			  		<div class="song-small m-1 ms-4 col-md-6 row align-items-center" >
+			  			<div class="col-1 h3">04</div>
+			  			<div class="col d-flex">
+			  				<img class="song-small-img rounded m-1" src="https://source.unsplash.com/43x45/?music" >
+			  				<div class="ms-1">
+			  					<div>Over the Town</div>
+					  			<small>Taylor Swift</small>
+					  		</div>
+				  		</div>
+			  			<div class="col-2">05:00 <i class="bi bi-play"></i></div>
+			  		</div>
+			  		<!--end small song item-->
+            
+			  		<!--small song item-->
+			  		<div class="song-small m-1 ms-4 col-md-6 row align-items-center" >
+			  			<div class="col-1 h3">03</div>
+			  			<div class="col d-flex">
+			  				<img class="song-small-img rounded m-1" src="https://source.unsplash.com/53x41/?music" >
+			  				<div class="ms-1">
+			  					<div>Blue Eyes</div>
+					  			<small>Yo Yo Honey</small>
+					  		</div>
+				  		</div>
+			  			<div class="col-2">06:10 <i class="bi bi-play"></i></div>
+			  		</div>
+			  		<!--end small song item-->
+            
+			  		<!--small song item-->
+			  		<div class="song-small m-1 ms-4 col-md-6 row align-items-center" >
+			  			<div class="col-1 h3">04</div>
+			  			<div class="col d-flex">
+			  				<img class="song-small-img rounded m-1" src="https://source.unsplash.com/43x41/?music" >
+			  				<div class="ms-1">
+			  					<div>Country Head</div>
+					  			<small>Mickel</small>
+					  		</div>
+				  		</div>
+			  			<div class="col-2">05:00 <i class="bi bi-play"></i></div>
+			  		</div>
+			  		<!--end small song item-->
+
+			  		
+			  		
+			  </div>
+			</div>
+
+
+		</div>
+		<!--end hero area-->
+
+		<h5 class="song-category-title mx-5 pt-4">Lofi-Music <small class="float-end"><a href="">View more <i class="bi bi-box-arrow-up-right"></i></a></small></h5>
+
+		<!-- start category area-->
+		<section class="pt-2 p-4 mx-5 d-flex justify-content-center" style="flex-wrap: wrap;">
+			
+			
+			<!--song card start-->
+			<div class="m-4" style="width: 200px;">
+				<div style="position: relative;">
+					<img src="https://source.unsplash.com/400x400/?music" class="big-song-img rounded img-fluid" >
+					<a href="#">
+						<div class="big-song-hover " >
+							<i class="h1 bi bi-play"></i>
+						</div>
+					</a>
+					</div>
+				<div>
+					<div class="lead text-white">Mere Nishan</div>
+					<small class="text-muted">Unknown</small>
+				</div>
+			</div>
+			<!--song card end-->
+
+			<!--song card start-->
+			<div class="m-4" style="width: 200px;">
+				<div style="position: relative;">
+					<img src="https://source.unsplash.com/500x500/?music" class="big-song-img rounded img-fluid" >
+					<a href="#">
+						<div class="big-song-hover " >
+							<i class="h1 bi bi-play"></i>
+						</div>
+					</a>
+					</div>
+				<div>
+					<div class="lead text-white">Mann Mera</div>
+					<small class="text-muted">Unknownn</small>
+				</div>
+			</div>
+			<!--song card end-->
+
+			<!--song card start-->
+			<div class="m-4" style="width: 200px;">
+				<div style="position: relative;">
+					<img src="https://source.unsplash.com/500x400/?music" class="big-song-img rounded img-fluid" >
+					<a href="#">
+						<div class="big-song-hover " >
+							<i class="h1 bi bi-play"></i>
+						</div>
+					</a>
+					</div>
+				<div>
+					<div class="lead text-white">Fukry</div>
+					<small class="text-muted">Lorem ipsum </small>
+				</div>
+			</div>
+			<!--song card end-->
+
+			<!--song card start-->
+			<div class="m-4" style="width: 200px;">
+				<div style="position: relative;">
+					<img src="https://source.unsplash.com/400x480/?music" class="big-song-img rounded img-fluid" >
+					<a href="#">
+						<div class="big-song-hover " >
+							<i class="h1 bi bi-play"></i>
+						</div>
+					</a>
+					</div>
+				<div>
+					<div class="lead text-white">Baby</div>
+					<small class="text-muted">Lorem, ipsum dolor.</small>
+				</div>
+			</div>
+			<!--song card end-->
+
+			<!--song card start-->
+			<div class="m-4" style="width: 200px;">
+				<div style="position: relative;">
+					<img src="https://source.unsplash.com/480x400/?music" class="big-song-img rounded img-fluid" >
+					<a href="#">
+						<div class="big-song-hover " >
+							<i class="h1 bi bi-play"></i>
+						</div>
+					</a>
+					</div>
+				<div>
+					<div class="lead text-white">Bhagp</div>
+					<small class="text-muted">sefrdsf</small>
+				</div>
+			</div>
+			<!--song card end-->
+
+			<!--song card start-->
+			<div class="m-4" style="width: 200px;">
+				<div style="position: relative;">
+					<img src="https://source.unsplash.com/700x7000/?music" class="big-song-img rounded img-fluid" >
+					<a href="#">
+						<div class="big-song-hover " >
+							<i class="h1 bi bi-play"></i>
+						</div>
+					</a>
+					</div>
+				<div>
+					<div class="lead text-white">scxzc </div>
+					<small class="text-muted">ASdc</small>
+				</div>
+			</div>
+			<!--song card end-->
+
+			<!--song card start-->
+			<div class="m-4" style="width: 200px;">
+				<div style="position: relative;">
+					<img src="https://source.unsplash.com/540x540/?music" class="big-song-img rounded img-fluid" >
+					<a href="#">
+						<div class="big-song-hover " >
+							<i class="h1 bi bi-play"></i>
+						</div>
+					</a>
+					</div>
+				<div>
+					<div class="lead text-white">Jail aint good</div>
+					<small class="text-muted">Lorem, ipsum.</small>
+				</div>
+			</div>
+			<!--song card end-->
+
+			<!--song card start-->
+			<div class="m-4" style="width: 200px;">
+				<div style="position: relative;">
+					<img src="https://source.unsplash.com/420x420/?music" class="big-song-img rounded img-fluid" >
+					<a href="#">
+						<div class="big-song-hover " >
+							<i class="h1 bi bi-play"></i>
+						</div>
+					</a>
+					</div>
+				<div>
+					<div class="lead text-white">Fix my bike</div>
+					<small class="text-muted">Lorem.</small>
+				</div>
+			</div>
+			<!--song card end-->
+
+			<!--song card start-->
+			<div class="m-4" style="width: 200px;">
+				<div style="position: relative;">
+					<img src="https://source.unsplash.com/490x490/?music" class="big-song-img rounded img-fluid" >
+					<a href="#">
+						<div class="big-song-hover " >
+							<i class="h1 bi bi-play"></i>
+						</div>
+					</a>
+					</div>
+				<div>
+					<div class="lead text-white">Masakali</div>
+					<small class="text-muted">Lorem, ipsum.</small>
+				</div>
+			</div>
+			<!--song card end-->
+
+			
+
+		</section>
+		<!-- end category area-->
+
+		<h5 class="song-category-title mx-5 pt-4">Romantic Hits <small class="float-end"><a href="">View more <i class="bi bi-box-arrow-up-right"></i></a></small></h5>
+
+		<!-- start category area-->
+		<section class="pt-2 p-4 mx-5 d-flex justify-content-center" style="flex-wrap: wrap;">
+			
+			
+			<!--song card start-->
+			<div class="m-4" style="width: 200px;">
+				<div style="position: relative;">
+					<img src="https://source.unsplash.com/400x400/?music" class="big-song-img rounded img-fluid" >
+					<a href="#">
+						<div class="big-song-hover " >
+							<i class="h1 bi bi-play"></i>
+						</div>
+					</a>
+					</div>
+				<div>
+					<div class="lead text-white">My love</div>
+					<small class="text-muted">Song description</small>
+				</div>
+			</div>
+			<!--song card end-->
+
+			<!--song card start-->
+			<div class="m-4" style="width: 200px;">
+				<div style="position: relative;">
+					<img src="https://source.unsplash.com/550x550/?music" class="big-song-img rounded img-fluid" >
+					<a href="#">
+						<div class="big-song-hover " >
+							<i class="h1 bi bi-play"></i>
+						</div>
+					</a>
+					</div>
+				<div>
+					<div class="lead text-white">East river dale</div>
+					<small class="text-muted">Song description</small>
+				</div>
+			</div>
+			<!--song card end-->
+
+			<!--song card start-->
+			<div class="m-4" style="width: 200px;">
+				<div style="position: relative;">
+					<img src="https://source.unsplash.com/500x540/?music" class="big-song-img rounded img-fluid" >
+					<a href="#">
+						<div class="big-song-hover " >
+							<i class="h1 bi bi-play"></i>
+						</div>
+					</a>
+					</div>
+				<div>
+					<div class="lead text-white">Never coming home</div>
+					<small class="text-muted">Song description</small>
+				</div>
+			</div>
+			<!--song card end-->
+
+			<!--song card start-->
+			<div class="m-4" style="width: 200px;">
+				<div style="position: relative;">
+					<img src="https://source.unsplash.com/640x640/?music" class="big-song-img rounded img-fluid" >
+					<a href="#">
+						<div class="big-song-hover " >
+							<i class="h1 bi bi-play"></i>
+						</div>
+					</a>
+					</div>
+				<div>
+					<div class="lead text-white">Bye bye baby</div>
+					<small class="text-muted">Song description</small>
+				</div>
+			</div>
+			<!--song card end-->
+
+			<!--song card start-->
+			<div class="m-4" style="width: 200px;">
+				<div style="position: relative;">
+					<img src="https://source.unsplash.com/740x740/?music" class="big-song-img rounded img-fluid" >
+					<a href="#">
+						<div class="big-song-hover " >
+							<i class="h1 bi bi-play"></i>
+						</div>
+					</a>
+					</div>
+				<div>
+					<div class="lead text-white">Chicken run</div>
+					<small class="text-muted">Song description</small>
+				</div>
+			</div>
+			<!--song card end-->
+
+			<!--song card start-->
+			<div class="m-4" style="width: 200px;">
+				<div style="position: relative;">
+					<img src="https://source.unsplash.com/840x840/?music" class="big-song-img rounded img-fluid" >
+					<a href="#">
+						<div class="big-song-hover " >
+							<i class="h1 bi bi-play"></i>
+						</div>
+					</a>
+					</div>
+				<div>
+					<div class="lead text-white">End of the road</div>
+					<small class="text-muted">Song description</small>
+				</div>
+			</div>
+			<!--song card end-->
+
+			<!--song card start-->
+			<div class="m-4" style="width: 200px;">
+				<div style="position: relative;">
+					<img src="https://source.unsplash.com/480x490/?music" class="big-song-img rounded img-fluid" >
+					<a href="#">
+						<div class="big-song-hover " >
+							<i class="h1 bi bi-play"></i>
+						</div>
+					</a>
+					</div>
+				<div>
+					<div class="lead text-white">journey to the end</div>
+					<small class="text-muted">Song description</small>
+				</div>
+			</div>
+			<!--song card end-->
+
+		</section>
+		<!-- end category area-->
+
+		
+	</main><!--end main area-->
+
+	<!-- <footer class="p-5 pt-4  row bg-dark text-white">
+		
+		<div class="col-md-3 mb-4 col-sm-6">
+			<h5>Quick links</h5>
+			<ul class="nav flex-column">
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Latest</a></li>
+				<li><a href="#">Signup</a></li>
+				<li><a href="#">Login</a></li>
+			</ul>
+		</div>
+		<div class="col-md-3 mb-4 col-sm-6">
+			<h5>Quick links</h5>
+			<ul class="nav flex-column">
+				<li><a href="#">Featured</a></li>
+				<li><a href="#">New releases</a></li>
+				<li><a href="#">Signup</a></li>
+				<li><a href="#">Login</a></li>
+			</ul>
+		</div>
+		<div class="col-md-6 mb-4">
+			<h5>Subscribe to our newsletter</h5>
+			<div>to receive news content</div>
+
+			<div class="input-group mb-3 mt-2">
+			  <input type="text" class="form-control" placeholder="Email" >
+			  <span class="bg-primary text-white input-group-text" id="basic-addon2">Subscribe</span>
+			</div>
+
+			<div class="text-white h5 ">
+				Follow us: 
+				<a href="">
+					<i class="bi bi-facebook"></i>
+				</a>
+				<a href="">
+					<i class="bi bi-twitter"></i>
+				</a>
+				<a href="">
+					<i class="bi bi-instagram"></i>
+				</a>
+			</div>
+
+		</div>
+	</footer> -->
+
+  <div class="container">
+    <footer class="py-5">
+      <div class="row">
+        <div class="col-6 col-md-2 mb-3">
+          <h5 class="text-white">Section</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+          </ul>
+        </div>
+  
+        <div class="col-6 col-md-2 mb-3">
+          <h5 class="text-white">Section</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+          </ul>
+        </div>
+  
+        <div class="col-6 col-md-2 mb-3">
+          <h5 class="text-white">Section</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+          </ul>
+        </div>
+  
+        <div class="col-md-5 offset-md-1 mb-3">
+          <form>
+            <h5 class="text-white">Subscribe to our newsletter</h5>
+            <p class="text-white">Monthly digest of what's new and exciting from us.</p>
+            <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+              <label for="newsletter1" class="visually-hidden">Email address</label>
+              <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+              <button class="btn btn-primary" type="button">Subscribe</button>
+            </div>
+          </form>
+        </div>
+      </div>
+  
+      <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+        <p class="text-white">© 2023 Company, Inc. All rights reserved.</p>
+        <ul class="list-unstyled d-flex">
+          <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+          <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+          <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+        </ul>
+      </div>
+    </footer>
+  </div>
+</body>
+
+
+<script src="js/bootstrap.min.js"></script>
+</html>
